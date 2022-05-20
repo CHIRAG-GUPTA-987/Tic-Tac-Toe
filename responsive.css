@@ -1,0 +1,54 @@
+@media only screen and (max-width: 1600px) {
+    .game-container {
+        margin-top: 5vh;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .game-container {
+        margin-top: 7vh;
+    }
+    .gameOver {
+        margin-top: -25vh;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .game-container {
+        margin-top: 5vh;
+    }
+    .gameOver {
+        margin-top: -25vh;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .gameOver {
+        margin-top: -20vh;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .game-container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+        padding: 0;
+    }
+    .gameInfo {
+        margin-top: 4vh;
+    }
+    .gameOver {
+        margin-top: 0;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    nav{
+      justify-content: center;
+    }
+    nav ul{
+      padding: 0;
+    }
+}

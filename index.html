@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Tic Tac Toe</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="utils.css" rel="stylesheet" type="text/css" />
+  <link href="responsive.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="logo.png" sizes="16x16 32x32" type="image/png">
+</head>
+
+<body>
+  
+  <nav>
+    <ul>
+      <li>TIC TAC TOE</li>
+    </ul>
+  </nav>
+
+  <div class="game-container">
+    
+    <div class="container">
+      <div class="line d-none"></div>
+      <div class="box bl-0 bt-0"><span class="boxText"></span></div>
+      <div class="box bt-0"><span class="boxText"></span></div>
+      <div class="box br-0 bt-0"><span class="boxText"></span></div>
+      <div class="box bl-0"><span class="boxText"></span></div>
+      <div class="box"><span class="boxText"></span></div>
+      <div class="box br-0"><span class="boxText"></span></div>
+      <div class="box bl-0 bb-0"><span class="boxText"></span></div>
+      <div class="box bb-0"><span class="boxText"></span></div>
+      <div class="box br-0 bb-0"><span class="boxText"></span></div>
+    </div>
+
+    <div class="gameInfo">
+      <div class="heading">
+        <div id="webhead">Welcome to TIC TAC TOE</div>
+        <div id="webowner">~Designed by CHIRAG GUPTA</div>
+      </div>
+      <div class="game">
+        <div class="gameState">Turn for Player <span class="playerInfo">1</span></div>
+        <button id="reset">Reset</button>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="gameOver">
+    <img id="gameOverImg" src="cheering.gif" width="420vw">
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
